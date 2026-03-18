@@ -100,7 +100,7 @@ try {
                                 <img src="${c.mapImage}" alt="${c.name} Map">
                             </div>` : ''}
                             <h4 class="route-event-name">${c.name}</h4>
-                            <p class="route-city">${c.venue.split(',').slice(1).join(',').trim()}</p>
+                            <p class="route-city">${c.venue}</p>
                             ${c.googleMapsUrl ? `
                             <a href="${c.googleMapsUrl}" class="btn-primary" target="_blank">
                                 <span class="btn-text">Get Directions</span>
