@@ -155,7 +155,7 @@ h3 {
 
 .grooms-parents-name,
 .brides-parents-name {
-  font-size: 1.7em;
+  font-size: 1.8em;
   color: var(--cream);
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -551,6 +551,7 @@ h3 {
   letter-spacing: 0.15em;
   font-size: 0.9rem;
   font-weight: 400;
+  text-shadow: 0 2px 3px rgb(0, 0, 0);
 }
 
 .scroll-indicator.hidden {
@@ -1056,7 +1057,7 @@ a.btn-primary {
   }
 
   .bride-groom-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .map-wrapper {
@@ -1097,7 +1098,7 @@ a.btn-primary {
 /* Music Control FAB */
 .music-fab {
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   right: 20px;
   width: 50px;
   height: 50px;
