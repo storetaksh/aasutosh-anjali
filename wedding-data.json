@@ -27,7 +27,8 @@
             "time": "1:00 PM",
             "venue": "Muzaffarpur",
             "showLocation": false,
-            "dressCode": "Traditional Indian Wear"
+            "dressCode": "Traditional Indian Wear",
+            "calendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aashutosh+%26+Anjali+-+Shagun+%26+Tilak&dates=20260428T130000/20260428T140000&details=Shagun+%26+Tilak+Ceremony&location=Muzaffarpur&ctz=Asia/Kolkata"
         },
         {
             "name": "Haldi & Mehandi Delight",
@@ -36,7 +37,8 @@
             "venue": "Dalaan Resort, Darbhanga",
             "googleMapsUrl": "https://maps.app.goo.gl/o9qe87oFZgnpcRZ66",
             "showLocation": true,
-            "dressCode": "Marigold & Mint"
+            "dressCode": "Marigold & Mint",
+            "calendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aashutosh+%26+Anjali+-+Haldi+%26+Mehandi&dates=20260430T100000/20260430T110000&details=Haldi+%26+Mehandi+Ceremony&location=Dalaan+Resort,+Darbhanga&ctz=Asia/Kolkata"
         },
         {
             "name": "Sangeet Night",
@@ -45,7 +47,8 @@
             "venue": "Darbhanga",
             "googleMapsUrl": "https://maps.app.goo.gl/53Gwi5RxcAEgncsTA",
             "showLocation": true,
-            "dressCode": "Shimmer, Shine & Show-Stop"
+            "dressCode": "Shimmer, Shine & Show-Stop",
+            "calendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aashutosh+%26+Anjali+-+Sangeet+Night&dates=20260430T190000/20260430T200000&details=Sangeet+Night&location=Darbhanga&ctz=Asia/Kolkata"
         },
         {
             "name": "AnShu Ki Mangal Shaadi",
@@ -55,7 +58,8 @@
             "googleMapsUrl": "https://maps.app.goo.gl/NsG4jAT9gpjaP9xEA",
             "showLocation": true,
             "dressCode": "Royal & Regal",
-            "highlight": true
+            "highlight": true,
+            "calendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aashutosh+%26+Anjali+-+Mangal+Shaadi&dates=20260501T180000/20260501T190000&details=Wedding+Ceremony&location=Dalaan+Resort&ctz=Asia/Kolkata"
         },
         {
             "name": "Reception",
@@ -64,7 +68,8 @@
             "venue": "Shankar Orchids, Muzaffarpur",
             "googleMapsUrl": "https://maps.app.goo.gl/ghrynPEXkaisPR3b9",
             "showLocation": true,
-            "dressCode": "Dress to Bless"
+            "dressCode": "Dress to Bless",
+            "calendarUrl": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Aashutosh+%26+Anjali+-+Reception&dates=20260509T190000/20260509T200000&details=Reception+Ceremony&location=Shankar+Orchids,+Muzaffarpur&ctz=Asia/Kolkata"
         }
     ],
     "contact": {
