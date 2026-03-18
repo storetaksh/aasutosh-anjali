@@ -21,7 +21,7 @@ try {
     // Extract Data
     const groomName = weddingData.couple.groom.name;
     const brideName = weddingData.couple.bride.name;
-    const groomFirst = groomName.split(' ')[2];
+    const groomFirst = groomName.split(' ')[0];
     const brideFirst = brideName.split(' ')[0];
     const date = weddingData.wedding.displayDate;
     const inviteText = weddingData.messages.inviteText;
@@ -32,9 +32,9 @@ try {
     const bParents = `${weddingData.couple.bride.parents.mother}<br>&<br>${weddingData.couple.bride.parents.father}`;
 
     // === 1. Meta Tags ===
-    const title = `${brideFirst} Weds ${groomFirst} | A Royal Wedding Invite`;
+    const title = `${groomFirst} Weds ${brideFirst} | A Royal Wedding Invite`;
     const desc = `${inviteText} Join us on ${date}.`;
-    const imageAlt = `${brideFirst} & ${groomFirst} Wedding Invitation`;
+    const imageAlt = `${groomFirst} & ${brideFirst} Wedding Invitation`;
 
     html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${title}</title>`);
     html = html.replace(/<meta\s+name="description"\s+content="[^"]*">/i, `<meta name="description" content="${escapeHtml(desc)}">`);
@@ -45,7 +45,7 @@ try {
         'og:title': title,
         'og:url': websiteUrl,
         'og:description': desc,
-        'og:site_name': `${brideFirst} & ${groomFirst} Wedding`,
+        'og:site_name': `${groomFirst} & ${brideFirst} Wedding`,
         'og:image:alt': imageAlt,
         'twitter:title': title,
         'twitter:url': websiteUrl,
@@ -81,9 +81,9 @@ try {
     replaceText('invite-text', inviteText);
     replaceText('grooms-parents-name', gParents);
     replaceText('brides-parents-name', bParents);
-    replaceText('bride-groom-title', `${brideName}<br>&<br>${groomName}`);
+    replaceText('bride-groom-title', `${groomName}<br>&<br>${brideName}`);
     replaceText('couple-quote', weddingData.messages.coupleQuote);
-    replaceText('end-title', `${brideFirst} & ${groomFirst}`);
+    replaceText('end-title', `${groomFirst} & ${brideFirst}`);
     replaceText('footer-thank-you', weddingData.messages.thankYou);
     replaceText('footer-hashtag', weddingData.couple.hashtag);
 
